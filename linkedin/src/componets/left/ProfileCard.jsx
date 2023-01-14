@@ -1,16 +1,17 @@
 import React from 'react'
 import TurnedInRoundedIcon from '@mui/icons-material/TurnedInRounded';
 import AdjustIcon from '@mui/icons-material/Adjust';
+import Profile from '../Profile';
 
 const ProfileCard = () => {
     return (
         <>
-            <div className='w-[23%] rounded-xl overflow-hidden text divide-y-2 divide-gray-100 bg-white'>
+            <div className='rounded-xl overflow-hidden text divide-y-2 divide-gray-100 bg-white'>
                 <div>
                     <img src="https://tse2.mm.bing.net/th?id=OIP.9l35MWUN6WpUbxyP3GM-cgHaCd&pid=Api&P=0" alt="profileBg" className='h-[60px] w-full' />
                 </div>
                 <div className=' relative p-4 pt-16 text-gray-400'>
-                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="profile" className='rounded-full ring-2 ring-white w-[65px] absolute -top-8 left-[37%]' />
+                    <div className='ring-2 ring-white w-[65px] absolute -top-8 left-[37%] rounded-full'><Profile/></div>
                     <h1 className='text-center text-gray-800 font-semibold hover:underline'>Rahul Khandke</h1>
                     <p className='text-sx text-center'>your description</p>
                 </div>
