@@ -37,8 +37,8 @@ const NavBar = () => {
                         </div>
                         <div className='flex gap-10'>
                             <ul className='flex gap-10 border-r-0 border-gray-700'>
-                                <Link><li className='flex flex-col items-center gap-y-1'><HomeIcon style={{fontSize:40}}/> <span>Home</span></li></Link>
-                                <Link><li className='flex flex-col items-center gap-y-1'><PeopleAltIcon style={{fontSize:40}} /> <span>My Network</span></li></Link>
+                                <Link to="/home"><li className='flex flex-col items-center gap-y-1'><HomeIcon style={{fontSize:40}}/> <span>Home</span></li></Link>
+                                <Link to="/myNetwork"><li className='flex flex-col items-center gap-y-1'><PeopleAltIcon style={{fontSize:40}} /> <span>My Network</span></li></Link>
                                 <Link><li className='flex flex-col items-center gap-y-1'><WorkIcon style={{fontSize:40}}/> <span>Jobs</span></li></Link>
                                 <Link><li className='flex flex-col items-center gap-y-1'><ExploreIcon style={{fontSize:40}} /> <span>Messaging</span></li></Link>
                                 <Link><li className='flex flex-col items-center gap-y-1'><ExploreIcon style={{fontSize:40}} /> <span>Notification</span></li></Link>
